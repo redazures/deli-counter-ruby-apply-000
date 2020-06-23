@@ -6,6 +6,7 @@ katz_deli=[]
 
 counter=3
 def ticket_numnber (ppl)
+  ppl=counter
   counter+=1
 end
   ppl.each do|person|

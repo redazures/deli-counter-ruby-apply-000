@@ -1,5 +1,6 @@
 # Write your code here.
 sample=["james","ben","stan","calvin"]
+#whom keeps the ticket number
 katz_deli=[]
 
 def take_a_number(deli,name)

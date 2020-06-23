@@ -11,8 +11,6 @@ def ticket_numnber (ppl)
   counter+=1
 end
 
-
-
 def take_a_number(deli,name)
   deli<<name
   puts "Welcome, #{name}. You are number #{deli.length} in line."
@@ -34,7 +32,7 @@ def line(deli)
     out= "The line is currently:"
     deli.each do |person|
       counter+=1
-      out= "#{out} #{counter}. #{person}"
+      out= "#{out} #{person}"
     end
   end
   puts out

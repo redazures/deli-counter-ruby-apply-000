@@ -2,14 +2,15 @@
 sample=["james","ben","stan","calvin"]
 #whom keeps the ticket number
 #ticket number increase
-katz_deli=[]
-
+katz_deli=[1,2]
 counter=3
+
 def ticket_numnber (ppl)
   ppl=counter
   counter+=1
+  katz_deli<<ppl
 end
-  ppl.each do|person|
+
 
 
 def take_a_number(deli,name)

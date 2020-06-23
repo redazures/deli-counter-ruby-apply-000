@@ -7,6 +7,15 @@ def take_a_number(deli,name)
   puts "Welcome, #{name}. You are number #{deli.length} in line."
 end
 
+def now_serving(deli)
+  out="There is nobody waiting to be served!"
+  if deli.any?
+    out= "Currently serving #{deli[0]}."
+    deli.shift
+  end
+  puts out
+end
+
 def line(deli)
   out="The line is currently empty."
   counter=0
@@ -20,14 +29,7 @@ def line(deli)
   puts out
 end
 
-def now_serving(deli)
-  out="There is nobody waiting to be served!"
-  if deli.any?
-    out= "Currently serving #{deli[0]}."
-    deli.shift
-  end
-  puts out
-end
+
 
 take_a_number(sample,"bobby")
 take_a_number(sample,"tony")

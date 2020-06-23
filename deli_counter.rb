@@ -7,8 +7,8 @@ counter=3
 
 def ticket_numnber (ppl)
   ppl=counter
-  counter+=1
   katz_deli<<ppl
+  counter+=1
 end
 
 
